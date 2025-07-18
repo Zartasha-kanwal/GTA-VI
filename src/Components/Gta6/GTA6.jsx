@@ -73,15 +73,7 @@ export default function GTA6() {
     } else {
       topPosition = "0%";
     }
-    gsap.to(".girl", {
-      scale: 1.5,
-      top: isLargeScreen ? "34%" : "40%",
-      x: "-40%",
-      rotate: 0,
-      duration: 2,
-      delay: -0.8,
-      ease: "expo.inOut",
-    });
+    
     gsap.to(".text", {
       scale: 1,
       rotate: 0,
@@ -179,15 +171,7 @@ export default function GTA6() {
 
               <img
                 src={girl}
-                onLoad={() => {
-                  gsap.to(".girl", {
-                    top: "34%",
-                    scale: 1.5,
-                    duration: 1.5,
-                    ease: "power2.out",
-                  });
-                }}
-                className="girl absolute left-1/2 top-[100%] scale-[2] rotate-[-10deg] transform -translate-x-1/2 -translate-y-1/2 max-h-[100%]  "
+                className="girl absolute left-1/2 top-[80%] scale-[1.5]  transform -translate-x-[40%] -translate-y-1/2 max-h-[100%]  "
               />
             </div>
             <div className="bottombar text-white absolute bottom-0 left-0 w-full py-10 px-10 bg-gradient-to-t  from-black to-transparent">
