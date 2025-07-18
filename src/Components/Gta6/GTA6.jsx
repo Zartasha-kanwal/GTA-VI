@@ -77,7 +77,7 @@ export default function GTA6() {
       scale: 1.5,
       top: isLargeScreen ? "34%" : "40%",
       x: "-40%",
-      y:"-40%",
+      y:"-70%",
       rotate: 0,
       duration: 2,
       delay: -0.8,
