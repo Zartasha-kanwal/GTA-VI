@@ -61,18 +61,18 @@ export default function GTA6() {
       delay: -0.8,
       ease: "expo.inOut",
     });
-   const isLargeScreen = window.matchMedia("(min-width: 1024px)").matches;
-const is2XLScreen = window.matchMedia("(min-width: 1536px)").matches;
+    const isLargeScreen = window.matchMedia("(min-width: 1024px)").matches;
+    const is2XLScreen = window.matchMedia("(min-width: 1536px)").matches;
 
-let topPosition;
+    let topPosition;
 
-if (is2XLScreen) {
-  topPosition = "0"; 
-} else if (isLargeScreen) {
-  topPosition = "34%";
-} else {
-  topPosition = "40%";
-}
+    if (is2XLScreen) {
+      topPosition = "0";
+    } else if (isLargeScreen) {
+      topPosition = "0";
+    } else {
+      topPosition = "0%";
+    }
     gsap.to(".girl", {
       scale: 1.5,
       top: isLargeScreen ? "34%" : "40%",
@@ -86,7 +86,6 @@ if (is2XLScreen) {
       scale: 1,
       rotate: 0,
       top: topPosition,
-
       duration: 2,
       delay: -0.8,
       ease: "expo.inOut",
@@ -167,13 +166,13 @@ if (is2XLScreen) {
               />
 
               <div className="text flex flex-col gap-4  relative w-max h-max  lg:top-6 left-1/2 transform -translate-x-1/2 lg:text-[5rem] text-[3rem] 2xl:text-[8rem] font-pricedown text-white leading-none rotate-[-10deg] scale-[1.2]">
-                <h1 className="absolute lg:left-[-12rem] left-[-8rem] top-0 2xl:translate-y-[-30px]">
+                <h1 className="absolute lg:left-[-12rem] left-[-8rem] top-0  2xl:translate-y-[-30px] ">
                   grand
                 </h1>
-                <h1 className="absolute lg:left-[-7rem] left-[-5rem] top-[5.5rem] 2xl:translate-y-[30px] ">
+                <h1 className="absolute lg:left-[-7rem] left-[-5rem] top-[5.5rem]  2xl:translate-y-[30px] ">
                   theft
                 </h1>
-                <h1 className="absolute lg:left-[-12rem] left-[-8rem] top-[11rem] 2xl:translate-y-[80px] ">
+                <h1 className="absolute lg:left-[-12rem] left-[-8rem] top-[11rem]  2xl:translate-y-[80px] ">
                   auto
                 </h1>
               </div>
