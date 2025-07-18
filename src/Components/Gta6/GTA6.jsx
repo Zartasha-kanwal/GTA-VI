@@ -179,7 +179,7 @@ export default function GTA6() {
 
               <img
                 src={girl}
-                className="girl absolute left-1/2  scale-[2] rotate-[-10deg] transform -translate-x-1/2 -translate-y-1/2 max-h-[100%]  "
+                className="girl absolute left-1/2  scale-[2] rotate-[-10deg] transform -translate-x-1/2 -translate-y-1/2 max-h-[50%]  "
               />
             </div>
             <div className="bottombar text-white absolute bottom-0 left-0 w-full py-10 px-10 bg-gradient-to-t  from-black to-transparent">
