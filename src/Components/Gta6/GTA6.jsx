@@ -187,7 +187,7 @@ export default function GTA6() {
                     ease: "power2.out",
                   });
                 }}
-                className="girl absolute left-1/2 top-[100%] scale-[2] rotate-[-10deg] transform -translate-x-1/2 -translate-y-1/2 h-fit  "
+                className="girl absolute left-1/2 top-[100%] scale-[2] rotate-[-10deg] transform -translate-x-1/2 -translate-y-1/2 max-h-[100%]  "
               />
             </div>
             <div className="bottombar text-white absolute bottom-0 left-0 w-full py-10 px-10 bg-gradient-to-t  from-black to-transparent">
