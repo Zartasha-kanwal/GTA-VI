@@ -1,8 +1,5 @@
 🎮 GTA-VI Landing Page
-
-
 ![Dashboard Screenshot](GTA-VI.png)
-
 
 A GTA VI–inspired landing page built using React.js, GSAP, and Tailwind CSS. This project focuses on creating a visually engaging, responsive website that highlights modern frontend skills with smooth animations and game-themed visuals.
 
